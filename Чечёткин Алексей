@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cstdlib>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int a, b, n, m;;
+    a = 4.8;
+    b = -7.9;
+    if (a>b)
+        n = (a*a) + ((a-b)/(sin(a*b)));
+        else pow ((a-b), 1/3);
+        if (n<b)
+          m=((n+a)/(-b))+sqrt(sin(a)*sin(a)-cos (n));
+        else if (n=b)
+           m= (b*b)+tan(n*a);
+           else
+          m= (b*b*b)+(n*(a*a));
+
+   cout <<"a="<<a<<endl;
+   cout <<"b = "<<b<<endl;
+   cout <<"n = "<<n<<endl;
+   cout<<"m = "<<m<<endl;
+    return 0;
+}
